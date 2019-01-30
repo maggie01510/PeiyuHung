@@ -13,3 +13,17 @@ html, body {
 h1{
     color: #734338;
 }
+
+/*nav ul {*/
+    /*text-align: right;*/
+    /*position: fixed;*/
+    /*width: 100%;*/
+    /*background-color: #FEDFE1;*/
+/*}*/
+
+nav ul li {
+    display: inline-block;
+    margin: 15px;
+
+    color: #734338
+}
