@@ -47,18 +47,18 @@ nav ul li:hover{
 
 }
 
-.work{
-    position: relative;
+.work_title{
+    justify-content:center;
+    align-items:center;
+    display:flex;
 }
 
-.work ul{
+.work_title ul{
     margin-top: 20px;
-    margin-left: 32.5%;
-    position: absolute;
 
 }
 
-.work ul li{
+.work_title ul li{
     flex-direction: row;
     list-style: none;
     display: inline-block;
@@ -69,7 +69,7 @@ nav ul li:hover{
 
 }
 
-.work ul li:hover{
+.work_title ul li:hover{
     color: black;
     text-shadow: 5px 5px 130px   rgba(168,216,185,0.8);
     transform:translate(-2px,-2px);
