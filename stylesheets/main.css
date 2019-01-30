@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+@import url('https://fonts.googleapis.com/css?family=Cabin+Condensed|Sacramento');
+
 *{
     /*border: solid 1px black;*/
     margin: 0;
@@ -8,15 +11,17 @@ html, body {
 }
 
 h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 55px;
     color: #08192D;
-    padding-left: 100px;
+    padding-left: 170px;
     padding-top: 20px;
 }
 
 nav ul {
-    margin-left: 900px;
+    margin-left: 970px;
     text-align: right;
-    transform: translateY(-60px);
+    transform: translateY(-80px);
     width: 500px;
     background-color: #A8D8B9;
 }
@@ -25,7 +30,8 @@ nav ul li {
     display: inline-block;
     color: #08192D;
     padding: 25px;
-
+    font-family: 'Cabin Condensed', sans-serif;
+    font-size: 20px;
 
 }
 
