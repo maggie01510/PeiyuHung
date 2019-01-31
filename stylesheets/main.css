@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin+Condensed|Sacramento');
 
 *{
-    border: solid 1px black;
+    /*border: solid 1px black;*/
     margin: 0;
     padding: 0;
 }
@@ -88,9 +88,19 @@ nav ul li:hover{
     justify-content: center;
 }
 
-/*.bottom{*/
-    /*background: #A8D8B9;*/
-    /*width: 100%;*/
-    /*height: 100px;*/
-    /*padding-bottom-bottom: 0px;*/
-/*}*/
+.bottom{
+    background-color: #A8D8B9;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0px;
+}
+
+.bottom ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    font-family: 'Cabin Condensed', sans-serif;
+    font-size: 17px;
+    opacity: 0.8;
+}
