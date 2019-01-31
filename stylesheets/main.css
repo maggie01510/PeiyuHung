@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin+Condensed|Sacramento');
 
 *{
-    /*border: solid 1px black;*/
+    border: solid 1px black;
     margin: 0;
     padding: 0;
 }
@@ -103,4 +103,21 @@ nav ul li:hover{
     font-family: 'Cabin Condensed', sans-serif;
     font-size: 17px;
     opacity: 0.8;
+}
+
+.ig ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    font-family: 'Cabin Condensed', sans-serif;
+    font-size: 17px;
+    opacity: 0.75;
+}
+
+.ig_photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
 }
