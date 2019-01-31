@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin+Condensed|Sacramento');
 
 *{
-    /*border: solid 1px black;*/
+    border: solid 1px black;
     margin: 0;
     padding: 0;
 }
@@ -10,10 +10,10 @@ html, body {
     /*background-color: #A8D8B9;*/
 }
 
-/*a{*/
-    /*color: initial;*/
-    /*text-decoration: initial;*/
-/*}*/
+a{
+    color: initial;
+    text-decoration: initial;
+}
 
 h1{
     font-family: 'Sacramento', cursive;
@@ -79,6 +79,13 @@ nav ul li:hover{
     background: #A8D8B9;
     width: 100%;
     height: 300px;
+}
+
+#Photography,#Painting,#Photoshop,#Blender,#Cooking{
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /*.bottom{*/
