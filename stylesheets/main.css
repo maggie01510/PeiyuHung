@@ -42,7 +42,7 @@ nav ul li {
 
 nav ul li:hover{
     opacity: 0.7;
-    text-shadow: 5px 5px 130px   rgba(168,216,185,0.8);
+    text-shadow: 5px 5px 130px rgba(168,216,185,0.8);
     transform:translate(-2px,-2px);
 
 }
@@ -105,7 +105,7 @@ nav ul li:hover{
     opacity: 0.8;
 }
 
-.ig ul{
+.flickr ul{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -115,9 +115,31 @@ nav ul li:hover{
     opacity: 0.75;
 }
 
-.ig_photo{
+.flickr_photo{
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 15px;
 }
+
+.flickr_photo ul li{
+    width: 243px;
+    height: 162px;
+    flex-direction: row;
+    list-style: none;
+    display: inline-block;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 5px;
+}
+
+.flickr_photo ul li:hover{
+    opacity: 0.8;
+}
+
+/*.intro h1,h2{*/
+    /*font-family: 'Cabin Condensed', sans-serif;*/
+    /*justify-content:center;*/
+    /*align-items:center;*/
+    /*display:flex;*/
+/*}*/
