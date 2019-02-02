@@ -195,6 +195,25 @@ nav ul li:hover{
     list-style: none;
 }
 
+.year{
+    list-style: none;
+}
 .year ul li{
     list-style: none;
 }
+
+.year ul{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.left_title{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.social li{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
