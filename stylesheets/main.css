@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Sacramento');
 @import url('https://fonts.googleapis.com/css?family=Cabin+Condensed|Sacramento');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 
 *{
     /*border: solid 1px black;*/
@@ -137,9 +138,44 @@ nav ul li:hover{
     opacity: 0.8;
 }
 
-/*.intro h1,h2{*/
-    /*font-family: 'Cabin Condensed', sans-serif;*/
-    /*justify-content:center;*/
-    /*align-items:center;*/
-    /*display:flex;*/
-/*}*/
+.intro{
+    margin-left: 400px;
+    margin-right: 400px;
+}
+.intro h1,h2{
+    font-family: 'Raleway', sans-serif;
+    justify-content:center;
+    align-items:center;
+    display: flex;
+    padding: 10px;
+    margin: 5px;
+}
+
+.resume{
+    display: flex;
+    margin-left: 400px;
+    margin-right: 400px;
+    position: relative;
+}
+.left{
+    flex:5;
+    width: 100%;
+    height: 100%;
+}
+.right{
+    list-style: none;
+    flex:2;
+    width: 100%;
+    height: 100%;
+}
+
+.social{
+    margin: 10px;
+}
+
+.contact{
+    margin: 10px;
+}
+.about{
+    margin: 10px;
+}
