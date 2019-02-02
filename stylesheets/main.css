@@ -146,7 +146,7 @@ nav ul li:hover{
     font-family: 'Raleway', sans-serif;
     justify-content:center;
     align-items:center;
-    display: flex;
+    display: flex-start;
     padding: 10px;
     margin: 5px;
 }
@@ -171,11 +171,30 @@ nav ul li:hover{
 
 .social{
     margin: 10px;
+    font-family: 'Raleway', sans-serif;
 }
 
 .contact{
     margin: 10px;
+    font-family: 'Raleway', sans-serif;
 }
 .about{
     margin: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+.edu{
+    margin: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+.job{
+    margin: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.edu_detail{
+    list-style: none;
+}
+
+.year ul li{
+    list-style: none;
 }
