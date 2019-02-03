@@ -22,6 +22,7 @@ h1{
     color: #08192D;
     padding-left: 170px;
     padding-top: 20px;
+    transform: translateX(-10px);
 }
 
 nav ul {
@@ -110,17 +111,18 @@ nav ul li:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 15px;
+    padding-top: 15px;
     font-family: 'Raleway', sans-serif;
     font-size: 23px;
     opacity: 0.85;
+    margin-left: 10px;
 }
 
 .flickr_photo{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 15px;
+    padding: 10px;
 }
 
 .flickr_photo ul li{
@@ -129,7 +131,7 @@ nav ul li:hover{
     flex-direction: row;
     list-style: none;
     display: inline-block;
-    justify-content: space-evenly;
+    /*justify-content: space-evenly;*/
     overflow: hidden;
     padding: 5px;
 }
@@ -144,13 +146,19 @@ nav ul li:hover{
     position: relative;
     list-style: none;
 }
-.intro h1,h2{
+.intro h1{
     font-family: 'Raleway', sans-serif;
     justify-content:center;
     align-items:center;
-    display: flex-start;
     padding: 10px;
-    margin: 5px;
+    margin: 10px;
+}
+
+.intro h2{
+    font-family: 'Raleway', sans-serif;
+    justify-content:center;
+    align-items:center;
+    margin: 10px;
 }
 
 /*.intro h1{*/
@@ -248,13 +256,14 @@ nav ul li:hover{
 .hr{
     margin-left: 600px;
     margin-right: 600px;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 50px;
     color: #A8D8B9;
+    opacity: 0;
 }
 
 .intro_img{
-    transform: translateX(900px);
+    transform: translateX(890px);
     margin-top: -130px;
     display: flex;
     align-items: center;
@@ -262,3 +271,10 @@ nav ul li:hover{
     list-style: none;
 }
 
+.leftnright{
+    transform: translateY(-75px);
+}
+
+.intro_img img{
+    box-shadow: 10px 10px 90px rgba(0,0,0,0.25);
+}
