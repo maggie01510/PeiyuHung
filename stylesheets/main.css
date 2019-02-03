@@ -142,6 +142,7 @@ nav ul li:hover{
     margin-left: 400px;
     margin-right: 400px;
     position: relative;
+    list-style: none;
 }
 .intro h1,h2{
     font-family: 'Raleway', sans-serif;
@@ -152,9 +153,9 @@ nav ul li:hover{
     margin: 5px;
 }
 
-.intro h1{
-    margin-top: 45px;
-}
+/*.intro h1{*/
+    /*margin-top: 45px;*/
+/*}*/
 
 .resume,.flickr,.flickr_photo{
     display: flex;
@@ -179,7 +180,7 @@ nav ul li:hover{
     font-family: 'Raleway', sans-serif;
 }
 
-.contact{
+.contact,.skill,.cv{
     margin: 10px;
     font-family: 'Raleway', sans-serif;
 }
@@ -222,6 +223,11 @@ nav ul li:hover{
     margin-bottom: 5px;
 }
 
+.skill li{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 .left_title::after{
     content: "";
     display: inline-block;
@@ -246,3 +252,13 @@ nav ul li:hover{
     margin-bottom: 50px;
     color: #A8D8B9;
 }
+
+.intro_img{
+    transform: translateX(900px);
+    margin-top: -130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
