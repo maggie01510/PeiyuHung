@@ -30,7 +30,7 @@ nav ul {
     text-align: right;
     transform: translateY(-80px);
     width: 500px;
-    background-color: #A8D8B9;
+    background-color: #A5DEE4;
 }
 
 nav ul li {
@@ -78,7 +78,7 @@ nav ul li:hover{
 }
 
 .home{
-    background: #A8D8B9;
+    background: #A5DEE4;
     width: 100%;
     height: 300px;
 }
@@ -91,7 +91,7 @@ nav ul li:hover{
 }
 
 .bottom{
-    background-color: #A8D8B9;
+    background-color: #A5DEE4;
     width: 100%;
     height: 100%;
     margin-bottom: 0px;
@@ -216,12 +216,12 @@ nav ul li:hover{
     display: inline-block;
     width: 20px;
     height: 6px;
-    background-color: #A8D8B9;
+    background-color: #A5DEE4;
     margin-left: 8px;
 }
 
 .right a{
-    color: #5DAC81;
+    color: #6699A1;
 }
 
 .right a:hover{
@@ -233,7 +233,7 @@ nav ul li:hover{
     margin-right: 600px;
     margin-top: 20px;
     margin-bottom: 50px;
-    color: #A8D8B9;
+    color: #A5DEE4;
     opacity: 0;
 }
 
