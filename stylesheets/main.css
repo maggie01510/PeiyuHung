@@ -183,35 +183,15 @@ nav ul li:hover{
     height: 100%;
 }
 
-.social{
+.contact,.skill,.cv,.social,.about,.edu,.job{
     margin: 10px;
     font-family: 'Raleway', sans-serif;
 }
 
-.contact,.skill,.cv{
-    margin: 10px;
-    font-family: 'Raleway', sans-serif;
-}
-.about{
-    margin: 10px;
-    font-family: 'Raleway', sans-serif;
-}
-.edu{
-    margin: 10px;
-    font-family: 'Raleway', sans-serif;
-}
-.job{
-    margin: 10px;
-    font-family: 'Raleway', sans-serif;
-}
-
-.edu_detail{
+.edu_detail,.year{
     list-style: none;
 }
 
-.year{
-    list-style: none;
-}
 .year ul li{
     list-style: none;
 }
@@ -226,12 +206,7 @@ nav ul li:hover{
     font-size: 25px;
 }
 
-.social li{
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-.skill li{
+.social li,.skill li{
     margin-top: 5px;
     margin-bottom: 5px;
 }
@@ -263,7 +238,7 @@ nav ul li:hover{
 }
 
 .intro_img{
-    transform: translateX(890px);
+    transform: translateX(880px);
     margin-top: -130px;
     display: flex;
     align-items: center;
