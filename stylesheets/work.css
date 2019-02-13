@@ -23,12 +23,16 @@ h1{
     font-family: 'Sacramento', cursive;
     font-size: 55px;
     color: #08192D;
-    padding-left: 170px;
+    padding-left: 13%;
     padding-top: 20px;
 }
 
+nav{
+    text-align: right;
+}
+
 .content ul {
-    margin-left: 60%;
+    padding-left: 58%;
     text-align: right;
     transform: translateY(-80px);
     width: 500px;
