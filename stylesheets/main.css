@@ -7,9 +7,6 @@
     margin: 0;
     padding: 0;
 }
-html, body {
-    /*background-color: #A8D8B9;*/
-}
 
 a{
     color: initial;
@@ -26,7 +23,7 @@ h1{
     font-family: 'Sacramento', cursive;
     font-size: 55px;
     color: #08192D;
-    padding-left: 170px;
+    padding-left: 13%;
     padding-top: 20px;
 }
 
@@ -35,7 +32,7 @@ nav{
 }
 
 .content ul {
-    margin-left: 60%;
+    padding-left: 58%;
     text-align: right;
     transform: translateY(-80px);
     width: 500px;
@@ -61,6 +58,7 @@ nav{
     height: 100%;
     margin-bottom: 0px;
 }
+
 
 .bottom ul{
     display: flex;
@@ -203,7 +201,8 @@ nav{
 }
 
 .intro_img{
-    transform: translateX(880px);
+    transform: translateX(-250px);
+    text-align: right;
     margin-top: -130px;
     display: flex;
     align-items: center;
