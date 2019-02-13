@@ -52,41 +52,6 @@ h1{
 
 }
 
-.work_title{
-    justify-content:center;
-    align-items:center;
-    display:flex;
-}
-
-.work_title ul{
-    margin-top: 20px;
-
-}
-
-.work_title ul li{
-    flex-direction: row;
-    list-style: none;
-    display: inline-block;
-    justify-content: space-between;
-    font-family: 'Cabin Condensed', sans-serif;
-    font-size: 20px;
-    padding: 20px;
-
-}
-
-.work_title ul li:hover{
-    color: black;
-    text-shadow: 5px 5px 130px   rgba(168,216,185,0.8);
-    transform:translate(-2px,-2px);
-}
-
-#Photography,#Painting,#Photoshop,#Blender,#Cooking{
-    margin: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .bottom{
     background-color: #A5DEE4;
     width: 100%;
