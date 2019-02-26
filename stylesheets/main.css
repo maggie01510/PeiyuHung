@@ -6,6 +6,11 @@
     /*border: solid 1px black;*/
     margin: 0;
     padding: 0;
+    height: auto;
+}
+
+html{
+    display: block;
 }
 
 a{
@@ -74,27 +79,25 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 15px;
     font-family: 'Raleway', sans-serif;
     font-size: 23px;
     opacity: 0.85;
     margin-left: 10px;
+    margin-bottom: 1%;
 }
 
 .flickr_photo{
-    display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px;
+    /*padding: 10px;*/
 }
 
 .flickr_photo ul li{
-    width: 243px;
-    height: 162px;
+    width: 31.7%;
+    height: 30%;
     flex-direction: row;
     list-style: none;
     display: inline-block;
-    /*justify-content: space-evenly;*/
     overflow: hidden;
     padding: 5px;
 }
@@ -104,9 +107,8 @@ nav{
 }
 
 .intro{
-    margin-left: 400px;
-    margin-right: 400px;
-    position: relative;
+    margin: auto;
+    width: 60%;
     list-style: none;
 }
 .intro h1{
@@ -124,15 +126,10 @@ nav{
     margin: 10px;
 }
 
-/*.intro h1{*/
-    /*margin-top: 45px;*/
-/*}*/
-
 .resume,.flickr,.flickr_photo{
     display: flex;
-    margin-left: 400px;
-    margin-right: 400px;
-    position: relative;
+    width: 60%;
+    margin: auto;
 }
 .left{
     flex:5;
@@ -201,7 +198,7 @@ nav{
 }
 
 .intro_img{
-    transform: translateX(-250px);
+    transform: translateX(-18.5%);
     text-align: right;
     margin-top: -130px;
     display: flex;
@@ -211,7 +208,7 @@ nav{
 }
 
 .leftnright{
-    transform: translateY(-80px);
+    transform: translateY(-6%);
 }
 
 .intro_img img{
