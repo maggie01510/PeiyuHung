@@ -99,7 +99,7 @@ nav{
     list-style: none;
     display: inline-block;
     overflow: hidden;
-    padding: 5px;
+    padding: 1px;
 }
 
 .flickr_photo ul li:hover{
@@ -116,7 +116,6 @@ nav{
     justify-content:center;
     align-items:center;
     padding: 10px;
-    margin: 10px;
 }
 
 .intro h2{
