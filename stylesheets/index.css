@@ -40,7 +40,7 @@ nav{
 .content ul {
     padding-left: 58%;
     text-align: right;
-    transform: translateY(-110%);
+    transform: translateY(-100%);
     width: 27%;
     /*background-color: #A5DEE4;*/
 }

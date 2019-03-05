@@ -35,7 +35,7 @@ nav{
 .content ul {
     padding-left: 58%;
     text-align: right;
-    transform: translateY(-110%);
+    transform: translateY(-100%);
     width: 27%;
     /*background-color: #A5DEE4;*/
 }
@@ -82,7 +82,8 @@ nav{
 }
 
 #Photography,#Painting,#Photoshop,#Blender,#Cooking{
-    margin: 50px;
+    width: 100%;
+    margin-top: 2%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -127,17 +128,11 @@ nav{
     cursor: pointer;
 }
 
-.photo_items li{
-    list-style: none;
+.photo_items{
+    position: relative;
+    width: 50%;
 }
-.photo_items li:hover{
-    filter: brightness(0.5);
-}
-.photo_items h3{
-    margin-bottom: 3%;
-    font-family: 'ABeeZee', sans-serif;
-    text-align: center;
-}
+
 /*#slideshow {*/
     /*margin: auto;*/
     /*position: relative;*/
@@ -151,3 +146,39 @@ nav{
     /*position: absolute;*/
 
 /*}*/
+
+.image {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 98.5%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #08192D;
+}
+
+.photo_items:hover .overlay {
+    opacity: 0.6;
+}
+
+.text {
+    font-family: 'ABeeZee', sans-serif;
+    color: white;
+    font-size: 75px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
