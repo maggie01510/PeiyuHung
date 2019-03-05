@@ -182,3 +182,23 @@ nav{
     transform: translate(-50%, -50%);
     text-align: center;
 }
+
+.buttons{
+    text-align: center;
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 20px;
+    margin-top: 2%;
+}
+
+.buttons:hover{
+    transform:translate(-2px,-2px);
+}
+
+
+.buttons a{
+    color: gray;
+    border: solid 3px dimgray;
+    padding: 0.5%;
+}
+
+/*#fe3d98*/
