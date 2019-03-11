@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css?family=ABeeZee');
 
 *{
-    /*border: solid 1px black;*/
+    border: solid 1px black;
     margin: 0;
     padding: 0;
 }
@@ -53,42 +53,6 @@ nav{
     transform:translate(-2px,-2px);
 }
 
-.work_title{
-    justify-content:center;
-    align-items:center;
-    display:flex;
-}
-
-.work_title ul{
-    margin-top: 20px;
-
-}
-
-.work_title ul li{
-    flex-direction: row;
-    list-style: none;
-    display: inline-block;
-    justify-content: space-between;
-    font-family: 'Cabin Condensed', sans-serif;
-    font-size: 20px;
-    padding: 20px;
-
-}
-
-.work_title ul li:hover{
-    color: black;
-    text-shadow: 5px 5px 130px   rgba(168,216,185,0.8);
-    transform:translate(-2px,-2px);
-}
-
-#Photography,#Painting,#Photoshop,#Blender,#Cooking{
-    width: 100%;
-    margin-top: 2%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .bottom{
     background-color: #A5DEE4;
     width: 100%;
@@ -111,6 +75,7 @@ nav{
     height: auto;
     width: 60%;
     z-index: 1;
+    padding-top: 1%;
     /*display: flex;*/
     /*align-items: center;*/
     /*justify-content: center*/
@@ -160,7 +125,7 @@ nav{
     bottom: 0;
     left: 0;
     right: 0;
-    height: 98.5%;
+    height: 98%;
     width: 100%;
     opacity: 0;
     transition: .5s ease;
@@ -188,7 +153,8 @@ nav{
     text-align: center;
     font-family: 'ABeeZee', sans-serif;
     font-size: 20px;
-    margin-top: 2%;
+    margin-top: 1.5%;
+    margin-bottom: 2%;
 }
 
 .buttons:hover{
