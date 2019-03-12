@@ -145,8 +145,11 @@ nav{
 }
 
 .dot{
+    coloe: #08192D;
     width: 50%;
     margin: auto;
     text-align: center;
     padding: 2% 0% 2% 0%;
+    opacity: 0.6;
 }
+
