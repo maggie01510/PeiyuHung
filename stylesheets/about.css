@@ -145,6 +145,7 @@ nav{
 .contact,.skill,.cv,.social,.about,.edu,.job{
     margin: 10px;
     font-family: 'Raleway', sans-serif;
+    line-height: 150%;
 }
 
 .edu_detail,.year{
@@ -197,7 +198,7 @@ nav{
 }
 
 .intro_img{
-    transform: translateX(-18.5%);
+    transform: translateX(-19.5%);
     text-align: right;
     margin-top: -130px;
     display: flex;
@@ -207,7 +208,7 @@ nav{
 }
 
 .leftnright{
-    transform: translateY(-6%);
+    transform: translateY(-5%);
 }
 
 .intro_img img{
