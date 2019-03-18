@@ -117,3 +117,28 @@ nav{
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
 
+.overview{
+    width: 50%;
+    margin: auto;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 2%;
+    line-height: 160%;
+    font-size: 17px;
+}
+
+.overview h2{
+    font-family: 'Sacramento', cursive;
+    text-align: center;
+    font-size: 48px;
+    padding-bottom: 3%;
+}
+
+.dot{
+    color: #08192D;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 2% 0% 2% 0%;
+    opacity: 0.6;
+}
+
