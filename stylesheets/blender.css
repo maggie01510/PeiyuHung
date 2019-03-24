@@ -182,3 +182,22 @@ nav{
     grid-row-end: 4;
 }
 
+.block {
+    line-height: 0;
+    -webkit-column-count: 5;
+    -webkit-column-gap: 0px;
+    -moz-column-count: 5;
+    -moz-column-gap: 0px;
+    column-count: 2;
+    column-gap: 0%;
+}
+.block img {
+    width: 100% !important;
+    height: auto !important;
+}
+.block{
+    display:inline-block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 6%;
+}
