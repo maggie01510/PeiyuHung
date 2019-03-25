@@ -26,6 +26,14 @@ a{
     height: 300px;
 }
 
+.home h2{
+    text-align: center;
+    color: white;
+    font-size: 457%;
+    font-family: 'Cabin Condensed', sans-serif;
+    font-style: italic;
+}
+
 h1{
     font-family: 'Sacramento', cursive;
     font-size: 55px;

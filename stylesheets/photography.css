@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin+Condensed|Sacramento');
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=ABeeZee');
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+
 
 *{
     /*border: solid 1px black;*/
@@ -18,6 +20,14 @@ a{
     background: #A5DEE4;
     width: 100%;
     height: 300px;
+}
+
+.home h2{
+    text-align: center;
+    color: white;
+    font-size: 457%;
+    font-family: 'Cabin Condensed', sans-serif;
+    font-style: italic;
 }
 
 h1{
