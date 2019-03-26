@@ -90,20 +90,6 @@ nav{
     /*justify-content: center*/
 }
 
-#background{
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-    z-index: 0;
-    width: 100%;
-}
-
-#background p{
-    text-align: center;
-    font-size: 280px;
-    opacity: 0.3;
-}
-
 .photo_list .row{
     display: flex;
     justify-content: space-evenly;
@@ -237,3 +223,42 @@ nav{
     opacity: 0.6;
 }
 
+.natureView, .foodView, .eventsView, .arcView{
+    width: 400%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio{
+    overflow: hidden;
+    width: 100%;
+}
+
+.btn_blue {
+    height: 5vh;
+    width: auto;
+    position: absolute;
+    transition: 0.5s;
+}
+
+.btn_blue.left {
+    left: 4.6875vw;
+    bottom: 7.5vh;
+}
+
+.btn_blue.right {
+    padding: 0;
+    margin: 0;
+    right: 4.6875vw;
+    bottom: 7.5vh;
+
+}
+
+.btn_blue:hover {
+    cursor: pointer;
+}
+.imgNature, .imgArc, .imgEvents, .imgFood{
+    transform: translateX(0%);
+    transition: 0.3s;
+}
