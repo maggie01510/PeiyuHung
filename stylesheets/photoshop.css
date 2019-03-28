@@ -143,13 +143,14 @@ nav{
     font-size: 17px;
 }
 
-.container img{
-    width: 100%;
+.container1 img{
+    width: 50%;
     height: auto;
 }
 
-.container h3{
-    padding: 2.5% 0% 0.6% 0%;
+.container3 img{
+    width: 100%;
+    height: auto;
 }
 
 .container h2{
