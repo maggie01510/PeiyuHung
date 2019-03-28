@@ -133,3 +133,38 @@ nav{
     padding: 2% 0% 2% 0%;
     opacity: 0.6;
 }
+
+.overview, .container{
+    width: 50%;
+    margin: auto;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 2%;
+    line-height: 160%;
+    font-size: 17px;
+}
+
+.container img{
+    width: 100%;
+    height: auto;
+}
+
+.container h3{
+    padding: 2.5% 0% 0.6% 0%;
+}
+
+.container h2{
+    padding-bottom: 2%;
+}
+
+.container h2::after{
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 6px;
+    background-color: #A5DEE4;
+    margin-left: 8px;
+}
+
+.lastimg{
+    margin-bottom: 10%;
+}

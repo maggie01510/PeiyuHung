@@ -243,15 +243,15 @@ nav{
 }
 
 .btn_blue.left {
-    left: 4.6875vw;
-    bottom: 7.5vh;
+    left: 3%;
+    bottom: 7.5%;
 }
 
 .btn_blue.right {
     padding: 0;
     margin: 0;
-    right: 4.6875vw;
-    bottom: 7.5vh;
+    right: 3%;
+    bottom: 7.5%;
 
 }
 
