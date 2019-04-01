@@ -76,7 +76,7 @@
         margin-bottom: 0;
     }
 
-    .bottom ul {
+    .copyright {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -202,6 +202,25 @@
     .lastimg {
         margin-bottom: 10%;
     }
+
+    /*.socialMedia ul{*/
+        /*display: flex;*/
+        /*margin-left: 350%;*/
+        /*align-items: center;*/
+        /*justify-content: center;*/
+        /*padding: 15px;*/
+
+    /*}*/
+    /*.socialMedia li{*/
+        /*list-style: none;*/
+        /*padding: 7px;*/
+    /*}*/
+    /*.socialMedia img{*/
+        /*width: 25px;*/
+        /*height: 25px;*/
+        /*padding: 10%;*/
+
+    /*}*/
 }
 
 @media (max-width: 480px){
