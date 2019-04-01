@@ -307,7 +307,7 @@
     .home h2 {
         text-align: center;
         color: white;
-        font-size: 400%;
+        font-size: 310%;
         font-family: 'Cabin Condensed', sans-serif;
         font-style: italic;
         padding-top: 25%;
@@ -354,14 +354,6 @@
         font-family: 'Cabin Condensed', sans-serif;
         font-size: 17px;
         opacity: 0.8;
-    }
-
-    .home h2 {
-        text-align: center;
-        color: white;
-        font-size: 398%;
-        font-family: 'Cabin Condensed', sans-serif;
-        font-style: italic;
     }
 
     /* Dropdown Button */
@@ -441,5 +433,129 @@
         padding-top: 2%;
         line-height: 160%;
         font-size: 17px;
+    }
+
+    .photo_list {
+        margin: auto;
+        height: auto;
+        width: 100%;
+        z-index: 1;
+        padding-top: 1%;
+        /*display: flex;*/
+        /*align-items: center;*/
+        /*justify-content: center*/
+    }
+
+    .photo_list .row {
+        display: flex;
+        justify-content: space-evenly;
+        /*background-color: #08192D;*/
+    }
+
+    .photo_list .row .photo_items {
+        margin: 1%;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .photo_items {
+        position: relative;
+        width: 50%;
+    }
+
+    .image {
+        display: block;
+        height: auto;
+        width: 100%;
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 90%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #08192D;
+    }
+
+    .photo_items:hover .overlay {
+        opacity: 0.6;
+    }
+
+    .text {
+        font-family: 'ABeeZee', sans-serif;
+        color: white;
+        font-size: 25px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .buttons {
+        text-align: center;
+        font-family: 'ABeeZee', sans-serif;
+        font-size: 16px;
+        margin-top: 1.5%;
+        margin-bottom: 2%;
+    }
+
+    .buttons:hover {
+        transform: translate(-2px, -2px);
+    }
+
+    .buttons a {
+        color: gray;
+        border: solid 3px dimgray;
+        padding: 0.25% 2% 0.25% 2%;
+    }
+
+    .natureView, .foodView, .eventsView, .arcView {
+        width: 500%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .portfolio {
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .btn_blue {
+        height: 3vh;
+        width: auto;
+        position: absolute;
+        transition: 0.5s;
+    }
+
+    .btn_blue.left {
+        left: 3%;
+        bottom: 0.1%;
+    }
+
+    .btn_blue.right {
+        padding: 0;
+        margin: 0;
+        right: 3%;
+        bottom: 0.1%;
+
+    }
+
+    .btn_blue:hover {
+        cursor: pointer;
+    }
+
+    .imgNature, .imgArc, .imgEvents, .imgFood {
+        transform: translateX(0%);
+        transition: 0.3s;
     }
 }
