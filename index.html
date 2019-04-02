@@ -7,36 +7,63 @@
         <link type="text/css" rel="stylesheet" media="(min-width: 480px) and (max-width: 1024px)" href="stylesheets/index.css"/>
         <link type="text/css" rel="stylesheet" media="(min-width: 1600px)" href="stylesheets/index.css"/>
         <script type="text/javascript" src="jquery.js"></script>
+        <script type="text/javascript" src="main.js"></script>
+
 
         <head>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-            <div class="home">
-                <div>
-                    <h1>Maggie hung</h1>
-                </div>
-                <nav class="content">
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li class="dropdown">
-                            <button class="dropbtn"><a>Work</a></button>
-                            <div class="dropdown-content">
-                                <a href="photography.html">Photography</a>
-                                <a href="painting.html">Painting</a>
-                                <a href="photoshop.html">Photoshop</a>
-                                <a href="blender.html">Blender</a>
-                                <a href="cooking.html">Cooking</a>
-                            </div>
-                        </li>
-                        <li><a href="about.html">About</a></li>
-                    </ul>
-                </nav>
-            </div>
+            <!--<div class="home">-->
+                <!--<div>-->
+                    <!--<h1>Maggie hung</h1>-->
+                <!--</div>-->
+                <!--<nav class="content">-->
+                    <!--<ul>-->
+                        <!--<li><a href="index.html">Home</a></li>-->
+                        <!--<li class="dropdown">-->
+                            <!--<button class="dropbtn"><a>Work</a></button>-->
+                            <!--<div class="dropdown-content">-->
+                                <!--<a href="photography.html">Photography</a>-->
+                                <!--<a href="painting.html">Painting</a>-->
+                                <!--<a href="photoshop.html">Photoshop</a>-->
+                                <!--<a href="blender.html">Blender</a>-->
+                                <!--<a href="cooking.html">Cooking</a>-->
+                            <!--</div>-->
+                        <!--</li>-->
+                        <!--<li><a href="about.html">About</a></li>-->
+                    <!--</ul>-->
+                <!--</nav>-->
+            <!--</div>-->
         </head>
 
         <body>
+            <div class="home">
+                <div class="burger" onclick="myFunction(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+                <div class="content" style="display: none;">
+                    <div class="guideWords">
+                        <div class="guidehomebox">
+                            <a class="guidehome" href="index.html">Home .</a>
+                            <div class="guideline homeline"></div>
+                        </div>
+                        <div class="guideworkbox">
+                            <a class="guidework" href="work.html">Work .</a>
+                            <div class="guideline workline"></div>
+                        </div>
+                        <div class="guideaboutbox">
+                            <a class="guideaboutme" href="about.html">About Me .</a>
+                            <div class="guideline aboutline"></div>
+                        </div>
 
+                    </div>
+                </div>
+
+
+            </div>
         </body>
 
         <footer>

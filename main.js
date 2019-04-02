@@ -90,3 +90,20 @@ $(document).ready(function(){
     });
 });
 
+var onClick = false;
+function myFunction(x) {
+    x.classList.toggle("change");
+    if (onClick === false){
+        $(".content").show();
+        onClick = true;
+        console.log(onClick);
+        return onClick;
+    }
+    if (onClick === true){
+        $(".content").hide();
+        onClick = false;
+        console.log(onClick);
+        return onClick;
+    }
+}
+
