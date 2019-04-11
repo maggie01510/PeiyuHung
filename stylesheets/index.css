@@ -19,10 +19,6 @@ html {
     background: #A5DEE4;
 }
 
-.home{
-    display: flex;
-}
-
 a {
     color: initial;
     text-decoration: initial;
