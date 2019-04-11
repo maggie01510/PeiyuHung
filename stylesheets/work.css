@@ -35,6 +35,10 @@ h1{
     padding-top: 20px;
 }
 
+h2{
+    font-family: 'Cabin Condensed', sans-serif;
+}
+
 nav{
     text-align: right;
 }
