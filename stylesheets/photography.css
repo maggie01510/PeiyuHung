@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css?family=ABeeZee');
 @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
 
-@media (min-width: 1600px) {
+@media screen and (min-width: 1025px) {
     * {
         /*border: solid 1px black;*/
         margin: 0;
@@ -267,7 +267,300 @@
     }
 }
 
-@media (max-width: 480px){
+@media screen and (min-width:768px) and (max-width:1024px){
+    *{
+        /*border: solid 1px black;*/
+        margin: 0;
+        padding: 0;
+        height: auto;
+    }
+
+    html{
+        display: block;
+    }
+
+    a{
+        color: initial;
+        text-decoration: initial;
+    }
+
+    .home{
+        background: #A5DEE4;
+        width: 100%;
+        height: 380px;
+    }
+
+    .home h1{
+        font-family: 'Sacramento', cursive;
+        text-align: center;
+        font-size: 60px;
+        color: #08192D;
+        padding-top: 20px;
+    }
+    .intro h1{
+        font-family: 'Sacramento', cursive;
+        font-size: 35px;
+        color: #08192D;
+        padding-top: 20px;
+    }
+
+    .home h2 {
+        text-align: center;
+        color: white;
+        font-size: 457%;
+        font-family: 'Cabin Condensed', sans-serif;
+        font-style: italic;
+        padding-top: 1vh;
+    }
+
+    nav{
+        text-align: center;
+    }
+
+    .content ul {
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+        /*background-color: #A5DEE4;*/
+    }
+    .content ul li {
+        display: inline-block;
+        color: #08192D;
+        padding: 7%;
+        font-family: 'Cabin Condensed', sans-serif;
+        font-size: 20px;
+
+    }
+    .content ul li:hover{
+        opacity: 0.7;
+        text-shadow: 5px 5px 130px rgba(168,216,185,0.8);
+        transform:translate(-2px,-2px);
+    }
+
+    .bottom{
+        background-color: #A5DEE4;
+        width: 100%;
+        height: 100%;
+        margin-top: 10%;
+        margin-bottom: 0;
+    }
+
+
+    .bottom ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 15px;
+        font-family: 'Cabin Condensed', sans-serif;
+        font-size: 17px;
+        opacity: 0.8;
+    }
+
+    /* Dropdown Button */
+    .dropbtn {
+        background-color: #A5DEE4;
+        color: #08192D;
+        padding: 7%;
+        font-family: 'Cabin Condensed', sans-serif;
+        font-size: 20px;
+        border: none;
+    }
+
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        min-width: 100px;
+        z-index: 1;
+    }
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+        color: #08192D;
+        padding-top: 15%;
+        text-align: left;
+        text-decoration: none;
+        display: block;
+    }
+
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {
+        color: black;
+    }
+
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .overview {
+        width: 80%;
+        margin: auto;
+        font-family: 'Raleway', sans-serif;
+        padding-top: 2%;
+        line-height: 160%;
+        font-size: 17px;
+    }
+
+    .overview h2 {
+        font-family: 'Shadows Into Light', cursive;
+        font-style: italic;
+        text-align: center;
+        font-size: 150%;
+        padding-bottom: 3%;
+        padding-right: 2%;
+    }
+
+    .dot {
+        color: #08192D;
+        width: 50%;
+        margin: auto;
+        text-align: center;
+        padding: 2% 0% 2% 0%;
+        opacity: 0.6;
+    }
+
+    .overview, .container {
+        width: 80%;
+        margin: auto;
+        font-family: 'Raleway', sans-serif;
+        padding-top: 2%;
+        line-height: 160%;
+        font-size: 17px;
+    }
+
+    .photo_list {
+        margin: auto;
+        height: auto;
+        width: 100%;
+        z-index: 1;
+        padding-top: 1%;
+        /*display: flex;*/
+        /*align-items: center;*/
+        /*justify-content: center*/
+    }
+
+    .photo_list .row {
+        display: flex;
+        justify-content: space-evenly;
+        /*background-color: #08192D;*/
+    }
+
+    .photo_list .row .photo_items {
+        margin: 1%;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .photo_items {
+        position: relative;
+        width: 50%;
+    }
+
+    .image {
+        display: block;
+        height: auto;
+        width: 100%;
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 90%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #08192D;
+    }
+
+    .photo_items:hover .overlay {
+        opacity: 0.6;
+    }
+
+    .text {
+        font-family: 'ABeeZee', sans-serif;
+        color: white;
+        font-size: 25px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .buttons {
+        text-align: center;
+        font-family: 'ABeeZee', sans-serif;
+        font-size: 16px;
+        margin-top: 1.5%;
+        margin-bottom: 2%;
+    }
+
+    .buttons:hover {
+        transform: translate(-2px, -2px);
+    }
+
+    .buttons a {
+        color: gray;
+        border: solid 3px dimgray;
+        padding: 0.25% 2% 0.25% 2%;
+    }
+
+    .natureView, .foodView, .eventsView, .arcView {
+        width: 500%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .portfolio {
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .btn_blue {
+        height: 3vh;
+        width: auto;
+        position: absolute;
+        transition: 0.5s;
+    }
+
+    .btn_blue.left {
+        left: 3%;
+        bottom: 0.1%;
+    }
+
+    .btn_blue.right {
+        padding: 0;
+        margin: 0;
+        right: 3%;
+        bottom: 0.1%;
+
+    }
+
+    .btn_blue:hover {
+        cursor: pointer;
+    }
+
+    .imgNature, .imgArc, .imgEvents, .imgFood {
+        transform: translateX(0%);
+        transition: 0.3s;
+    }
+}
+
+@media screen and (max-width: 767px){
     *{
         /*border: solid 1px black;*/
         margin: 0;
@@ -310,7 +603,7 @@
         font-size: 310%;
         font-family: 'Cabin Condensed', sans-serif;
         font-style: italic;
-        padding-top: 25%;
+        padding-top: 5vh;
     }
 
     nav{
