@@ -45,11 +45,11 @@
                 <h2>Strawberry donuts</h2>
                 <img src="https://farm8.staticflickr.com/7827/47285153862_19b3505cd6_z.jpg" width="640" height="426">
                 <h3>Description</h3>
-                <p>利用以前做的甜甜圈模型並找到相似的圖片，希望可以做出桌面上有兩個相同甜甜圈的感覺。</p>
+                <p>Using the previously made donut model and finding a similar pictures, hoping to make a new picture that seems like there are two identical donuts on the table.</p>
                 <h3>Concept</h3>
-                <p>利用torus做出甜甜圈的主體，並用cylinder做出甜甜圈上方白色巧克力的。材質部分希望甜甜圈的草莓淋醬表面可以做出有一點光滑反光的感覺，下方麵包體則是霧面。在燈光上用了環境光和單點光源，把兩個光源中和，算出影子並將其模糊化，之後再用colorRamp和colorBalance調色。</p>
+                <p>Used torus to make the body of the donut and used cylinder to make the white chocolate on top of the donut. I want that the surface of the strawberry donut looks a little smooth and reflective, and the bottom of the bread looks matte. Ambient light and a point light were used for the light. Neutralized both of the light, calculated and blurred the shadow , and then ues colorRamp and colorBalance for the color.</p>
                 <h3>Breakdown​</h3>
-                <p>分別將甜甜圈主體和草莓淋醬用diffuse上色，在用random的方式把白色巧克力灑在淋醬上方。影子分別render單點光源與環境光，合成時將影子加上blur，讓影子看起來不會那麼生硬。並用colorRamp和coloBalance調色。最後將Shadow和Shader利用Alpha Over合成後，再次利用Alpha Over合成上背景。</p>
+                <p>Color the doughnut and strawberry sauce separately with diffuse, and sprinkle white chocolate on top of the sauce at random. The shadow renders a single point light source and ambient light respectively, and added to the blur when it was synthesized to make the shadow look less rigid. Next, toning with colorRamp and coloBalance. Last, after combining Shadow and Shader with Alpha Over, use Alpha Over again to compose the background.</p>
                 <h3>Compositing</h3>
                 <img src="https://farm8.staticflickr.com/7861/32414706827_10a804715f_z.jpg" width="640" height="318">
                 <h3>Materials</h3>
@@ -75,10 +75,10 @@
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/-9E-eoQ6-G0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <img src="https://farm8.staticflickr.com/7902/40391497123_4233b12020_z.jpg" width="640" height="360">
                 <h3>Description</h3>
-                <p>模擬放在地板上的水壺，希望可以做出相同的狀態。</p>
-                <p>透過鏡頭的移動，希望水壺在影片中的角度能夠符合現實。</p>
+                <p>Simulate the bottle on the floor, hoping to make the same state.</p>
+                <p>Through the movement of the lens, want to make the angle of the bottle in the film can be in line with reality.</p>
                 <h3>Concept</h3>
-                <p>利用數個Cylinder疊加而成水壺本體，在Material部分運用bevel和subdivision surface讓水壺的邊角能夠更圓滑，但實際效果沒有想像中明顯。而燈光選用spotlight但位置放在較遠處，希望能夠做出比較柔和的影子。</p>
+                <p>The body of the bottle was superimposed with several cylinders, and the corners of the bottle were smoothed using bevel and subdivision surface in the Material section, but the actual effect was not as obvious as expected in the end. The spotlight is placed far away, hoping to make a softer shadow.</p>
                 <h3>Breakdown​</h3>
                 <img src="https://farm8.staticflickr.com/7884/47356856391_1a4726182d_z.jpg" width="640" height="441">
                 <img src="https://farm8.staticflickr.com/7828/47356856081_9b76de59e3_z.jpg" width="640" height="373">
